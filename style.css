@@ -4,6 +4,12 @@ body {
     font-family: sans-serif;
 }
 
+#zd {
+    text-align: center;
+    font-size: 3em;
+    animation-duration: 1s;
+}
+
 #toaster {
     size: contain;
     width: 50vw;
@@ -13,8 +19,8 @@ body {
     padding-top: 10%;
     border-radius: 50%;
     animation: color-in;
-    animation-duration: 1.5s;
-    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-delay: 0.85s;
     animation-fill-mode: forwards;
     visibility: hidden;
 }
@@ -24,11 +30,11 @@ body {
     height: 60vw;
     display: block;
     margin: auto;
-    margin-top: 55%;
+    margin-top: 20%;
     border-radius: 50%;
     animation: color-in;
-    animation-duration: 1.5s;
-    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-delay: 0.85s;
     animation-fill-mode: forwards;
 }
 
@@ -38,8 +44,8 @@ body {
     justify-content: center;
     padding: 0;
     animation: hide;
-    animation-duration: 1.5s;
-    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-delay: 0.85s;
     animation-fill-mode: forwards;
     visibility: hidden;
 }
