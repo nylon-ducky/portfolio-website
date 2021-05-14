@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="small-style.css" media="screen and (max-width: 674px)">
     <script defer src="app.js"></script>
     <title>My Resume</title>
 </head>
 <body>
-    <ul id="nav">
+    <ul id="nav-res" class="animate__fadeInDownBig">
         <li><a href="index.html">Home</a></li>
         <li><a href="">Projects</a></li>
         <li><a href="resume.html">Resume</a></li>
@@ -17,9 +18,9 @@
         <li><a href="">Links</a></li>
     </ul>
   
-    <img src="resume.jpg" alt="Please click the link below to view in google docs"/>
+    <img class="animate__rotateIn" src="resume.jpg" alt="Please click the link below to view in google docs" />
 
-    <P>
+    <P id="docs-link" class="animate__bounceInUp">
     <a href="https://docs.google.com/document/d/1O8J65ZhQ_ZiXkfsxUbodm9Ms4YMSpGUNFubxMo_3i1U/edit?usp=sharing" target="_blank">Click Here</a> to view on Google Docs.
     </P>
     <!--  <embed src="Resume.pdf" type="application/pdf">

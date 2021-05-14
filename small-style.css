@@ -45,7 +45,7 @@ body {
     padding: 0;
     animation: hide;
     animation-duration: 1s;
-    animation-delay: 0.85s;
+    animation-delay: .85s;
     animation-fill-mode: forwards;
     visibility: hidden;
 }
@@ -59,11 +59,28 @@ li {
     padding: 1.5vw;
 }
 
+#nav-res {
+    font-size: small;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    animation-duration: 1s;
+}
+
 img {
     width: 90vw;
     height: auto;
     size: contain;
     margin: 2.5vw;
+    animation: hide;
+    animation-duration: 1s;
+}
+
+#docs-link {
+    text-align: center;
+    animation-duration: 1s;  
+
 }
 
 /*
