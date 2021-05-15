@@ -43,6 +43,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 0;
+    margin-top: 5vh;
     animation: hide;
     animation-duration: 1s;
     animation-delay: .85s;
@@ -77,13 +78,33 @@ img {
     animation-duration: 1s;
 }
 
+
+
 #docs-link {
     text-align: center;
     animation-duration: 1s;  
+}
 
+#links {
+    width: 25vw;
+    padding: 1vw;
+    margin: auto;
+    margin-top: 4.5vh;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 30%;
+    box-shadow: 0 0 25px 5px lightskyblue;
 }
 
 
+
+#radrides {
+    width: 80vw;
+    height: 90vw;
+    display: block;
+    margin: auto;
+    margin-top: 2vh;
+}
 
 /*
 embed {
@@ -109,7 +130,8 @@ iframe {
         
     }
     to {
-        background-color: lightblue; 
+        background-color: lightskyblue;
+        box-shadow: 0 0 25px 5px lightskyblue;
         visibility: visible;
     }
 }
