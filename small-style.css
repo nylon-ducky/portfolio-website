@@ -115,6 +115,7 @@ img {
 #about-me-p {
     padding: 3vw;
     line-height: 1.5;
+    animation-duration: 1s;
 }
 
 #slide-right {
