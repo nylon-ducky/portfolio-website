@@ -116,6 +116,7 @@ img {
     padding: 3vw;
     line-height: 1.5;
     animation-duration: 1s;
+    padding-top: 0;
 }
 
 #slide-right {
