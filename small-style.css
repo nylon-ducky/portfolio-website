@@ -1,12 +1,21 @@
 body {
+    box-sizing: border-box;
     color: whitesmoke;
-    background-color: black;
-    font-family: sans-serif;
+    background-image: url("blackbackground.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
 }
 
 #zd {
+    width: 100vw;
     text-align: center;
+    margin: auto;
+    margin-left: 0;
     font-size: 3em;
+    font-family: "pacifico", monospace;
     animation-duration: 1s;
 }
 
@@ -15,54 +24,31 @@ body {
     width: 50vw;
     height: 50vw;
     display: block;
-    margin: auto;
-    padding-top: 10%;
-    border-radius: 50%;
-    animation: color-in;
-    animation-duration: 1s;
-    animation-delay: 0.85s;
-    animation-fill-mode: forwards;
-    visibility: hidden;
+    margin: 7vh auto;
+    background-color: white;
+    animation-duration: 1.1s;
 }
 
-.circle {
-    width: 60vw;
-    height: 60vw;
-    display: block;
-    margin: auto;
-    margin-top: 20%;
-    border-radius: 50%;
-    animation: color-in;
-    animation-duration: 1s;
-    animation-delay: 0.85s;
-    animation-fill-mode: forwards;
-}
 
 #nav {
-    list-style-type: none;
     display: flex;
-    justify-content: center;
-    padding: 0;
-    margin-top: 5vh;
+    justify-content: space-evenly;
+    margin-top: 10vh;
     animation: hide;
-    animation-duration: 1s;
-    animation-delay: .85s;
-    animation-fill-mode: forwards;
+    animation-duration: 1.1s;
+    animation-fill-mode: forwards;    
     visibility: hidden;
 }
+
 a {
     color: white;
     font-weight: bold;
     text-decoration: none;
 }
 
-li {
-    padding: 1.5vw;
-}
 
 #nav-res {
     font-size: small;
-    list-style-type: none;
     display: flex;
     justify-content: center;
     padding: 0;
@@ -121,35 +107,6 @@ img {
 
 #slide-right {
     text-align: right;
-}
-/*
-embed {
-    display: block;
-    margin: auto;
-    size: contain;
-    width: 90vw;
-    height: 90vh;
-}
-
-iframe {
-    width: max-content;
-    height: 100vh;
-}
-*/
-
-@keyframes color-in {
-    from { 
-        background-color: black;
-        visibility: hidden;
-        width: 0;
-        height: 0;
-        
-    }
-    to {
-        background-color: lightskyblue;
-        box-shadow: 0 0 25px 5px lightskyblue;
-        visibility: visible;
-    }
 }
 
 @keyframes hide {
