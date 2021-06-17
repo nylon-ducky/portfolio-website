@@ -1,0 +1,94 @@
+body {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: black url("gentletexture.jpg") no-repeat left top;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+*:focus {
+    border: 3px solid whitesmoke;
+    text-decoration: red wavy underline;
+
+}
+
+img {
+    width: 25vw;
+    height: 25vw;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+
+h1 {
+    display: inline;
+    font-size: 2.25em;
+    margin: auto 0;
+    font-family: pacifico, cursive;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.head {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3vw;
+}
+
+h2 {
+    font-size: 2.25em;
+    margin: 0;
+}
+
+small {
+    font-size: 1.25rem;
+}
+
+.intro {
+    margin: auto 3vw;
+}
+
+#contact {
+    width: 100vw;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+
+/*
+#email {
+    width:fit-content;
+    text-align: center;
+    margin: auto;
+    color:whitesmoke;
+    font-size: medium;
+    background-color: rgba(245, 245, 245, 0);
+    border: none;
+    cursor: pointer;
+}
+
+#Elabel {
+    font-size: x-small;
+    width: fit-content;
+    margin: auto;
+}
+
+*/
