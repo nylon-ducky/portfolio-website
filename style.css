@@ -7,6 +7,7 @@ body {
     background: black url("gentletexture.jpg") no-repeat left top;
     background-size: cover;
     color: whitesmoke;
+    font-family: Verdana, sans-serif;
 }
 
 *:focus {
@@ -24,10 +25,13 @@ img {
 }
 
 h1 {
+    
+    font-family: 'Miss Fajardose', cursive;
     display: inline;
-    font-size: 2.25em;
+    font-size: 5em;
+    font-weight: bold;
     margin: auto 0;
-    font-family: pacifico, cursive;
+    
 }
 
 a {
@@ -43,7 +47,7 @@ nav {
 .head {
     display: flex;
     justify-content: space-evenly;
-    margin: 3vw;
+    margin: auto;
 }
 
 h2 {
@@ -60,12 +64,16 @@ small {
 }
 
 #contact {
-    width: 100vw;
+    width: 95vw;
     text-align: center;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+#contact h3 {
+    margin-bottom: 0;
 }
 
 .underline {
