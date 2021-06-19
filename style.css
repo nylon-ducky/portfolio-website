@@ -1,16 +1,16 @@
+
 body {
     box-sizing: border-box;
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
+    min-width: 100vw !important;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
     background: linear-gradient(326deg, rgba(115,113,113,1) 10%, rgba(109,100,223,1) 47%, rgba(89,196,198,1) 100%);
-    
-    /*
-    background: black url("gentletexture.jpg") no-repeat left top;
-    */
+    /*  filter: blur( 20.0px );  */
+    background-repeat: no-repeat;
     background-size: cover;
     color: rgb(255, 255, 255);
+    overflow: hidden;
 }
 
 * {
@@ -20,27 +20,25 @@ body {
 *:focus {
     border: 3px solid whitesmoke;
     text-decoration: red wavy underline;
-
-}
-
-img {
-    width: 25vw;
-    height: 25vw;
-    background-color: white;
-    border: 3px solid white;
-    border-radius: 3px;
 }
 
 h1 {
     display: inline;
-    font-size: 2.25em;
+    font-size: 3.75em;
     margin: auto 0;
+    /*
     font-family: pacifico, cursive;
+    */
+    font-family: 'Miss Fajardose', cursive;
 }
 
 a {
     text-decoration: none;
-    color: rgb(29, 26, 26);
+    color: whitesmoke;
+}
+
+nav > a:active {
+    background-color: rgb(141, 39, 39);
 }
 
 nav {
@@ -49,22 +47,23 @@ nav {
 }
 
 .head {
-    width: 94vw;
     display: flex;
     justify-content: space-evenly;
-    margin: 3vw;
+    margin: auto;
 }
 
-.glass {
-    background: rgba( 255, 255, 255, 0.250 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    -webkit-backdrop-filter: blur( 20.0px );
+.glassmain {
+    background: rgba(255, 255, 255, 0.250);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     border-radius: 10px;
+    backdrop-filter: blur(15px);  
+    margin: 10vw;
 }
 
 h2 {
     font-size: 2.25em;
     margin: 0;
+    text-align: center;
 }
 
 small {
@@ -72,19 +71,18 @@ small {
 }
 
 .intro {
-    margin: 3vw;
+    margin: 3vw auto;
     padding: 2.5vw;
+    text-align: center;
 }
 
 #contact {
-    width: 80vw;
     text-align: center;
     margin: auto;
     padding-bottom: 2vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 .underline {
@@ -96,7 +94,6 @@ small {
     display: flex;
     top: 5px;
     right: 5px;
-    
 }
 
 .star2 {
@@ -104,5 +101,4 @@ small {
     display: flex;
     bottom: 5px;
     left: 5px;
-    
 }
