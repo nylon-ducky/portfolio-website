@@ -42,7 +42,27 @@
             <a href="guestbook.html">Guest Book</a>
         </nav>
 
+        <div class="addpost">
+            <form id="postForm">
+                <label for="name">Your Name / Handle: </label>
+                <br/>
+                <input type="text" name="text" id="name">
+                <br/>
+                <label for="message">Message: </label>
+                <br/>
+                <textarea id="message" name="message" rows="10" cols="20"></textarea>
+                <br/>
+                <button name="submit" id="submit" onclick="post()">Post</button>
+            </form>
+        </div>
 
+        <div id="guestBook">
+
+
+        </div>
+
+    
+        
 
     </div>
 </body>
