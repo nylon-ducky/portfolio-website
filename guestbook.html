@@ -43,26 +43,26 @@
         </nav>
 
         <div class="addpost">
-            <form id="postForm">
-                <label for="name">Your Name / Handle: </label>
-                <br/>
-                <input type="text" name="text" id="name">
-                <br/>
-                <label for="message">Message: </label>
-                <br/>
-                <textarea id="message" name="message" rows="10" cols="20"></textarea>
-                <br/>
-                <button name="submit" id="submit" onclick="post()">Post</button>
+            <form id="postForm" method="POST" action="procedures/add-to-db.php">
+                <label class="label" for="name">Name or Handle: </label>
+                <br />
+                <input type="text" name="name" id="name">
+                <br />
+                <label class="label" for="message">Message: </label>
+                <br />
+                <textarea id="message" name="message" rows="5" cols="20"></textarea>
+                <br />
+                <button name="submit" id="submit" value="submit">Post</button>
             </form>
         </div>
 
-        <div id="guestBook">
+        <p id="guestBook">
 
 
-        </div>
+        </p>
 
-    
-        
+
+
 
     </div>
 </body>

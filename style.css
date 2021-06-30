@@ -134,3 +134,69 @@ small {
 }
 
 */
+
+
+.addpost {
+    width: 65vw;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgba(26, 95, 224, 0.5);
+    padding: 2vh 0;
+    /*rgba(93, 185, 241, 0.85);
+    */
+    
+}
+
+#postForm > *{
+    display: flex;
+    justify-content: center;
+    width: 55vw;
+    margin: auto;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 22.5px;
+    /*background-color: lightgreen;
+    */
+}
+
+.label {
+    font-size: 22.5px;
+    
+}
+
+#name {
+    margin-top: -10px;
+    height: 30px;
+    font-size: 22.5px;
+    padding: 15px;
+    border: none;
+    box-shadow: 0 0 10px 2px rgb(1, 33, 139) inset;
+    background-color: rgba(92, 179, 230, 0.35);
+    /*background-color: rgba(68, 134, 255, 0.555);border: 2px solid black;
+    rgb(109, 107, 107)
+    */
+    text-align: center;
+}
+
+#message {
+    margin-top: -10px;
+    font-size: 22.5px;
+    padding: 15px;
+    border: none;
+    box-shadow: 0 0 10px 2px rgb(1, 33, 139) inset;
+    background-color: rgba(92, 179, 230, 0.35);
+    
+}
+
+#submit {
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22.5px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 0 10px 3px rgb(1, 33, 129) inset;
+    background-color: rgba(92, 179, 230, 0.822);
+    
+}
